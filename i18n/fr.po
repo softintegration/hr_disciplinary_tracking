@@ -1,0 +1,568 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_disciplinary_tracking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-12 09:43+0000\n"
+"PO-Revision-Date: 2023-07-12 09:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__action
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Action"
+msgstr "Action"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields.selection,name:hr_disciplinary_tracking.selection__discipline_category__category_type__action
+msgid "Action Category"
+msgstr "Catégorie d'action"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__action_details
+msgid "Action Details"
+msgstr "Détails de la mesure"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Action Information"
+msgstr "Informations de la mesure"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields.selection,name:hr_disciplinary_tracking.selection__disciplinary_action__state__action
+msgid "Action Validated"
+msgstr "Validé"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__attachment_ids
+msgid "Attachments"
+msgstr "Pièces jointes"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields.selection,name:hr_disciplinary_tracking.selection__disciplinary_action__state__cancel
+msgid "Cancelled"
+msgstr "Annulée"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__category_type
+msgid "Category Type"
+msgstr "Catégorie"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_discipline_category__code
+msgid "Category code"
+msgstr "Code de catégorie"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_discipline_category__name
+msgid "Category name"
+msgstr "Nom"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__discipline_reason
+msgid "Choose a disciplinary reason"
+msgstr "Choisissez un motif disciplinaire"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__action
+msgid "Choose an action for this disciplinary action"
+msgstr "Choisissez une action pour cette mésure disciplinaire"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_discipline_category__category_type
+msgid "Choose the category type disciplinary or action"
+msgstr "Choisissez le type de catégorie disciplinaire ou action"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__code
+msgid "Code"
+msgstr "Code"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__create_uid
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__create_date
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__department_name
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.disciplinary_search_view
+msgid "Department"
+msgstr "Département"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__department_name
+msgid "Department name"
+msgstr "Nom de département"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__description
+msgid "Details"
+msgstr "Détails"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_discipline_category__description
+msgid "Details for this category"
+msgstr "Détails pour cette catégorie"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.actions.act_window,name:hr_disciplinary_tracking.action_disciplinary_action
+#: model:ir.model,name:hr_disciplinary_tracking.model_disciplinary_action
+#: model:ir.ui.menu,name:hr_disciplinary_tracking.disciplinary_action_create
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_tree
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_form_inherit_disciplinary
+msgid "Disciplinary Action"
+msgstr "Mesure disciplinaire"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.actions.act_window,name:hr_disciplinary_tracking.disciplinary_action_details_view
+msgid "Disciplinary Action Details"
+msgstr "Détails de la mesure disciplinaire"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.actions.act_window,name:hr_disciplinary_tracking.disciplinary_action_details
+#: model:ir.ui.menu,name:hr_disciplinary_tracking.disciplinary_action
+msgid "Disciplinary Actions"
+msgstr "Mesures disciplinaire"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields.selection,name:hr_disciplinary_tracking.selection__discipline_category__category_type__disciplinary
+msgid "Disciplinary Category"
+msgstr "Catégorie disciplinaire"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Disciplinary Information"
+msgstr "Informations disciplinaires"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.actions.act_window,name:hr_disciplinary_tracking.action_disciplinary_category_view
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.disciplinary_category_view_tree
+msgid "Discipline Categories"
+msgstr "Motifs disciplinaire"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.ui.menu,name:hr_disciplinary_tracking.disciplinary_category_view
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.disciplinary_category_view_form
+msgid "Discipline Category"
+msgstr "Motif disciplinaire"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_hr_employee__discipline_count
+msgid "Discipline Count"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__display_name
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields.selection,name:hr_disciplinary_tracking.selection__disciplinary_action__state__draft
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model,name:hr_disciplinary_tracking.model_hr_employee
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__employee_name
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Employee"
+msgstr "Employé"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__attachment_ids
+msgid "Employee can submit any documents which supports their explanation"
+msgstr "L'employé peut soumettre tout document à l'appui de son explication"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__explanation
+msgid ""
+"Employee have to give Explanation to manager about the violation of "
+"discipline"
+msgstr ""
+"L'employé doit donner des explications au responsable sur la violation de "
+"discipline"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__joined_date
+msgid "Employee joining date"
+msgstr "Date d'entrée de l'employé"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__employee_name
+msgid "Employee name"
+msgstr "Nom"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__explanation
+msgid "Explanation by Employee"
+msgstr "Explication par l'employée"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__action_details
+msgid "Give the details for this action"
+msgstr "Donnez des détails sur cette action"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.disciplinary_search_view
+msgid "Group By"
+msgstr "Regrouper par"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__id
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__id
+msgid "ID"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icône pour indiquer une activité d'exception"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_needaction
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_has_error
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__note
+msgid "Internal Note"
+msgstr "Notes internes"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__joined_date
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Joined Date"
+msgstr "Date d'entrée"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action____last_update
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__write_uid
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__write_date
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:0
+#, python-format
+msgid "New"
+msgstr "Nouvelle"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Proceed"
+msgstr "Procéder"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__read_only
+msgid "Read Only"
+msgstr "Nom modifiable"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__discipline_reason
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Reason"
+msgstr "Motif"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model,name:hr_disciplinary_tracking.model_discipline_category
+msgid "Reason Category"
+msgstr "Catégorie de motif"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__name
+msgid "Reference"
+msgstr "Référence"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_user_id
+msgid "Responsible User"
+msgstr "Utilisateur responsable"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.disciplinary_search_view
+msgid "Search information"
+msgstr "Rechercher"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Set to Draft"
+msgstr "Marquer comme brouillon"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__state
+msgid "State"
+msgstr "Status"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Submit"
+msgstr "Soumettre"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__suspension_letter
+msgid "Suspension Letter"
+msgstr "Lettre de suspension"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__termination_letter
+msgid "Termination Letter"
+msgstr "Lettre de résiliation"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Type d'activité d'exception enregistrée."
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Validate Action"
+msgstr "Valider"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields.selection,name:hr_disciplinary_tracking.selection__disciplinary_action__state__submitted
+msgid "Waiting Action"
+msgstr "En attente d'une action"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields.selection,name:hr_disciplinary_tracking.selection__disciplinary_action__state__explain
+msgid "Waiting Explanation"
+msgstr "En attente d'explication"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__warning
+msgid "Warning"
+msgstr "Avertissement"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__warning_letter
+msgid "Warning Letter"
+msgstr "Lettre d'avertissement"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:0
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:0
+#, python-format
+msgid "You Can not edit a Validated Action !!"
+msgstr "Vous ne pouvez pas modifier une mesure validée !!"
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:0
+#, python-format
+msgid "You have to fill up the Action Details in Action Information !!"
+msgstr "Veuillez remplir les détails de la mesure!!"
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:0
+#, python-format
+msgid "You have to select an Action !!"
+msgstr "Vous devez sélectionner une Action !!"
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:0
+#, python-format
+msgid "You must give an explanation !!"
+msgstr "Vous devez donner une explication !!"
