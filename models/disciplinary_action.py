@@ -86,10 +86,12 @@ class DisciplinaryAction(models.Model):
 
     @api.onchange('employee_name')
     def onchange_employee_name(self):
-
         department = self.env['hr.employee'].search([('name', '=', self.employee_name.name)])
         self.department_name = department.department_id.id
-
+        # here we have to check the existence of the field first_contract_date because the current module have no dependency relation with the hr_contract
+        # so to prevent errors in the case of the hr_contract is not installed
+        if self.employee_name and hasattr(self.employee_name,'first_contract_date'):
+            self.joined_date = self.employee_name.first_contract_date
         if self.state == 'action':
             raise ValidationError(_('You Can not edit a Validated Action !!'))
 
