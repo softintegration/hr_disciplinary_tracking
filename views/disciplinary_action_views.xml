@@ -120,13 +120,21 @@
                             </page>
                             <page name="action_information" states="submitted,action"
                                   string="Action Information">
-                                <group>
+                                <field name="action_ids" attrs="{'invisible': [('state','not in',['submitted','action'])],'readonly': [('state','=','action')]}">
+                                    <tree editable="bottom">
+                                        <field name="action" domain="[('category_type','=','action')]" context="{'default_category_type':'action'}"/>
+                                        <field name="action_details" widget="text"/>
+                                    </tree>
+                                </field>
+
+
+                                <group invisible="1">
                                     <field name="action" string="Action"
                                            attrs="{'invisible': [('state','not in',['submitted','action'])],'readonly': [('state','=','action')]}"
                                            domain="[('category_type','=','action')]" context="{'default_category_type':'action'}"
                                            groups="hr.group_hr_manager"/>
                                 </group>
-                                <group>
+                                <group invisible="1">
                                     <field name="action_details"
                                            attrs="{'invisible' :[('action', '=', False)],'readonly': [('state','=','action')],'readonly': [('read_only','!=',True)]}"/>
                                 </group>

@@ -58,6 +58,7 @@ class DisciplinaryAction(models.Model):
                                                                      ' to manager about the violation of discipline')
     action = fields.Many2one('discipline.category', string="Action",
                              help="Choose an action for this disciplinary action")
+    action_ids = fields.One2many('disciplinary.action.line','disciplinary_action_id')
     read_only = fields.Boolean(compute="get_user", default=True)
     warning_letter = fields.Html(string="Warning Letter")
     suspension_letter = fields.Html(string="Suspension Letter")
@@ -117,11 +118,13 @@ class DisciplinaryAction(models.Model):
 
     def action_function(self):
         for rec in self:
-            if not rec.action:
-                raise ValidationError(_('You have to select an Action !!'))
+            if not rec.action_ids:
+                raise ValidationError(_('You have to select at least an Action !!'))
+            #if not rec.action:
+            #    raise ValidationError(_('You have to select an Action !!'))
 
-            if not rec.action_details or rec.action_details == '<p><br></p>':
-                raise ValidationError(_('You have to fill up the Action Details in Action Information !!'))
+            #if not rec.action_details or rec.action_details == '<p><br></p>':
+            #    raise ValidationError(_('You have to fill up the Action Details in Action Information !!'))
             rec.state = 'action'
 
     def explanation_function(self):
@@ -133,3 +136,17 @@ class DisciplinaryAction(models.Model):
         self.write({
             'state': 'submitted'
         })
+
+class DisciplinaryActionLine(models.Model):
+    _name = 'disciplinary.action.line'
+    _description = "Disciplinary Action lines"
+
+    disciplinary_action_id = fields.Many2one('disciplinary.action',required=True,ondelete='cascade')
+    action = fields.Many2one('discipline.category', string="Action",
+                             help="Choose an action for this disciplinary action",required=True)
+    action_details = fields.Text(string='Action Details',required=True)
+
+    @api.onchange('action')
+    def onchange_action(self):
+        if self.action:
+            self.action_details = self.action.description

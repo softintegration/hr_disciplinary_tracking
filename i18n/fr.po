@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-15 09:30+0000\n"
-"PO-Revision-Date: 2023-10-15 09:30+0000\n"
+"POT-Creation-Date: 2023-10-15 11:10+0000\n"
+"PO-Revision-Date: 2023-10-15 11:10+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -39,6 +39,8 @@ msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__action
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__action_ids
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action_line__action
 #: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
 msgid "Action"
 msgstr ""
@@ -50,6 +52,7 @@ msgstr "Catégorie d'action"
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__action_details
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action_line__action_details
 msgid "Action Details"
 msgstr "Détails de la mesure"
 
@@ -130,6 +133,7 @@ msgstr "Choisissez un motif disciplinaire"
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__action
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action_line__action
 msgid "Choose an action for this disciplinary action"
 msgstr "Choisissez une action pour cette mésure disciplinaire"
 
@@ -145,12 +149,14 @@ msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__create_uid
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action_line__create_uid
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__create_uid
 msgid "Created by"
 msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__create_date
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action_line__create_date
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__create_date
 msgid "Created on"
 msgstr ""
@@ -158,7 +164,7 @@ msgstr ""
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__date_from
 msgid "Date"
-msgstr "Date"
+msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__department_name
@@ -184,6 +190,7 @@ msgstr "Détails pour cette catégorie"
 #. module: hr_disciplinary_tracking
 #: model:ir.actions.act_window,name:hr_disciplinary_tracking.action_disciplinary_action
 #: model:ir.model,name:hr_disciplinary_tracking.model_disciplinary_action
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action_line__disciplinary_action_id
 #: model:ir.ui.menu,name:hr_disciplinary_tracking.disciplinary_action_create
 #: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
 #: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_tree
@@ -195,6 +202,11 @@ msgstr "Mesure disciplinaire"
 #: model:ir.actions.act_window,name:hr_disciplinary_tracking.disciplinary_action_details_view
 msgid "Disciplinary Action Details"
 msgstr "Détails de la mesure disciplinaire"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model,name:hr_disciplinary_tracking.model_disciplinary_action_line
+msgid "Disciplinary Action lines"
+msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model:ir.actions.act_window,name:hr_disciplinary_tracking.disciplinary_action_details
@@ -231,6 +243,7 @@ msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__display_name
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action_line__display_name
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__display_name
 msgid "Display Name"
 msgstr "Nom affiché"
@@ -308,6 +321,7 @@ msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__id
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action_line__id
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__id
 msgid "ID"
 msgstr ""
@@ -351,18 +365,21 @@ msgstr "Date d'entrée"
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action____last_update
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action_line____last_update
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category____last_update
 msgid "Last Modified on"
 msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__write_uid
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action_line__write_uid
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__write_uid
 msgid "Last Updated by"
 msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__write_date
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action_line__write_date
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__write_date
 msgid "Last Updated on"
 msgstr ""
@@ -568,14 +585,8 @@ msgstr "Vous ne pouvez pas modifier une mesure validée !!"
 #. module: hr_disciplinary_tracking
 #: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:0
 #, python-format
-msgid "You have to fill up the Action Details in Action Information !!"
-msgstr "Veuillez remplir les détails de la mesure!!"
-
-#. module: hr_disciplinary_tracking
-#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:0
-#, python-format
-msgid "You have to select an Action !!"
-msgstr "Vous devez sélectionner une Action !!"
+msgid "You have to select at least an Action !!"
+msgstr "Vous devez sélectionner au moins une Action !!"
 
 #. module: hr_disciplinary_tracking
 #: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:0
