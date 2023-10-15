@@ -78,6 +78,20 @@
                                 <field name="read_only" invisible="True"/>
                                 <field name="warning" invisible="True"/>
                             </group>
+                            <group>
+                                <div class="o_row o_row_readonly">
+                                <span class="oe_inline">
+                                    From
+                                </span>
+                                <field name="date_from" class="oe_inline" nolabel="1"
+                                    widget="daterange" options="{'related_end_date': 'date_to'}"/>
+                                <span class="oe_inline">
+                                    To
+                                </span>
+                                <field name="date_to" class="oe_inline"
+                                    widget="daterange" options="{'related_start_date': 'date_from'}"/>
+                            </div>
+                            </group>
                         </group>
 
 

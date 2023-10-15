@@ -52,6 +52,8 @@ class DisciplinaryAction(models.Model):
     department_name = fields.Many2one('hr.department', string='Department', required=True, help="Department name")
     discipline_reason = fields.Many2one('discipline.category', string='Reason', required=True,
                                         help="Choose a disciplinary reason")
+    date_from = fields.Datetime('Date',required=True,states={'draft': [('readonly', False)]}, readonly=True)
+    date_to = fields.Datetime('Limit Date',required=True,states={'draft': [('readonly', False)]}, readonly=True)
     explanation = fields.Text(string="Explanation by Employee", help='Employee have to give Explanation'
                                                                      ' to manager about the violation of discipline')
     action = fields.Many2one('discipline.category', string="Action",

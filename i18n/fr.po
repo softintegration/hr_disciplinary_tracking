@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 09:43+0000\n"
-"PO-Revision-Date: 2023-07-12 09:43+0000\n"
+"POT-Creation-Date: 2023-10-15 09:30+0000\n"
+"PO-Revision-Date: 2023-10-15 09:30+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,10 +16,32 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid ""
+"<span class=\"oe_inline\">\n"
+"                                    From\n"
+"                                </span>"
+msgstr ""
+"<span class=\"oe_inline\">\n"
+"                                    A partir de\n"
+"                                </span>"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid ""
+"<span class=\"oe_inline\">\n"
+"                                    To\n"
+"                                </span>"
+msgstr ""
+"<span class=\"oe_inline\">\n"
+"                                    À\n"
+"                                </span>"
+
+#. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__action
 #: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
 msgid "Action"
-msgstr "Action"
+msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields.selection,name:hr_disciplinary_tracking.selection__discipline_category__category_type__action
@@ -119,7 +141,7 @@ msgstr "Choisissez le type de catégorie disciplinaire ou action"
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__code
 msgid "Code"
-msgstr "Code"
+msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__create_uid
@@ -132,6 +154,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__create_date
 msgid "Created on"
 msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__date_from
+msgid "Date"
+msgstr "Date"
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__department_name
@@ -303,7 +330,6 @@ msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_has_error
-#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr ""
 
@@ -342,6 +368,11 @@ msgid "Last Updated on"
 msgstr ""
 
 #. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__date_to
+msgid "Limit Date"
+msgstr "Date Limite"
+
+#. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_main_attachment_id
 msgid "Main Attachment"
 msgstr ""
@@ -370,7 +401,7 @@ msgstr "Nom"
 #: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:0
 #, python-format
 msgid "New"
-msgstr "Nouvelle"
+msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_calendar_event_id
@@ -447,11 +478,6 @@ msgstr "Référence"
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_user_id
 msgid "Responsible User"
 msgstr "Utilisateur responsable"
-
-#. module: hr_disciplinary_tracking
-#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_has_sms_error
-msgid "SMS Delivery error"
-msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.disciplinary_search_view
@@ -531,16 +557,6 @@ msgstr "Avertissement"
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__warning_letter
 msgid "Warning Letter"
 msgstr "Lettre d'avertissement"
-
-#. module: hr_disciplinary_tracking
-#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__website_message_ids
-msgid "Website Messages"
-msgstr ""
-
-#. module: hr_disciplinary_tracking
-#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__website_message_ids
-msgid "Website communication history"
-msgstr ""
 
 #. module: hr_disciplinary_tracking
 #: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:0
