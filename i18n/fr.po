@@ -387,7 +387,7 @@ msgstr ""
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__date_to
 msgid "Limit Date"
-msgstr "Date Limite"
+msgstr "Date limite"
 
 #. module: hr_disciplinary_tracking
 #: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_main_attachment_id
